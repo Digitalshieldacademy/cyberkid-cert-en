@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<meta name="description"
+content="Reclama el certificado oficial Cyber Kids de Digital Shield Academy." />
+
+<meta name="theme-color" content="#07111f" />
+
+<title>Cyber Kids · Certificado Oficial</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Rajdhani:wght@400;500;600;700&family=Caveat:wght@700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+
+<!-- =========================================
+POSTER CINEMÁTICO
+========================================= -->
+
+<section class="poster-hero">
+
+  <img
+    src="poster1.jpg"
+    class="poster-image"
+    alt="CyberKids Poster"
+  >
+
+  <div class="poster-overlay">
+
+    <h1>
+      
+    </h1>
+    <button
+      class="soundtrack-btn"
+      onclick="playMusic()"
+    >
+      ▶ PLAY OFFICIAL SOUNDTRACK
+    </button>
+
+  </div>
+
+</section>
+
+<audio id="bgMusic">
+
+  <source
+    src="digital-hero.mp3"
+    type="audio/mpeg"
+  >
+
+</audio>
+<p>
+      The Internet Has a Dark Side.<br>
+      Become the Digital Hero the World Needs.
+</p>
+<!-- =========================================
+FONDOS
+========================================= -->
+
+<div class="bg-grid"></div>
+<div class="bg-glow"></div>
+
+<!-- =========================================
+HEADER
+========================================= -->
+
+<header class="site-header">
+
+  <div class="brand">
+
+    <div class="brand-shield">
+
+      <svg viewBox="0 0 64 64" width="38" height="38">
+
+        <defs>
+          <linearGradient id="shieldGrad" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#3aa9ff"/>
+            <stop offset="100%" stop-color="#0d4d8c"/>
+          </linearGradient>
+        </defs>
+
+        <path d="M32 4 L56 14 V32 C56 46 44 56 32 60 C20 56 8 46 8 32 V14 Z"
+        fill="url(#shieldGrad)"
+        stroke="#7fd3ff"
+        stroke-width="1.5"/>
+
+      </svg>
+
+    </div>
+
+    <div class="brand-text">
+
+      <div class="brand-title">
+        DIGITAL SHIELD
+      </div>
+
+      <div class="brand-sub">
+        ACADEMY
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="privacy-pill">
+
+    <span class="pulse-dot"></span>
+
+    CERO DATOS GUARDADOS
+
+  </div>
+
+</header>
+
+<!-- =========================================
+HERO
+========================================= -->
+
+<section class="hero">
+
+  <div class="hero-content">
+
+    <div class="hero-tagline">
+      EDUCACIÓN · SEGURIDAD · DIVERSIÓN
+    </div>
+
+    <h1 class="hero-title">
+
+      <span class="t-blue">CYBER</span>
+      <span class="t-yellow">KIDS</span>
+
+    </h1>
+
+    <p class="hero-subtitle">
+      Reclama el Certificado Oficial de tu Pequeño Héroe Digital
+    </p>
+
+    
+
+  </div>
+
+</section>
+
+<!-- =========================================
+MAIN
+========================================= -->
+
+<main class="container">
+
+<section class="form-card">
+
+  <div class="form-header">
+
+    <span class="step-num">01</span>
+
+    <div>
+
+      <h2>
+        Escribe el nombre de tu Cyber Kid
+      </h2>
+
+      <p class="form-help">
+        El certificado se actualiza automáticamente
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="input-wrap">
+
+    <input
+      id="kidName"
+      type="text"
+      maxlength="32"
+      placeholder="Ej: Sofía Rivera"
+      autocomplete="off"
+    />
+
+    <span class="input-counter">
+
+      <span id="charCount">0</span>/32
+
+    </span>
+
+  </div>
+
+  <div class="actions">
+
+    <button class="btn btn-primary" id="downloadPdfBtn">
+      Descargar PDF
+    </button>
+
+    <button class="btn btn-secondary" id="downloadPngBtn">
+      Descargar Imagen
+    </button>
+
+    <button class="btn btn-ghost" id="printBtn">
+      Imprimir
+    </button>
+
+  </div>
+
+</section>
+
+<section class="cert-section">
+
+  <div class="form-header">
+
+    <span class="step-num">02</span>
+
+    <div>
+
+      <h2>
+        Vista previa del certificado
+      </h2>
+
+      <p class="form-help">
+        Descárgalo o imprímelo en segundos
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="cert-stage">
+
+    <div id="certificate" class="certificate">
+
+      <div class="certificate-overlay"></div>
+
+      <img
+        src="assets/cypher.png"
+        class="cert-character cert-cypher"
+        alt="Cypher"
+      >
+
+      <img
+        src="assets/leo.png"
+        class="cert-character cert-leo"
+        alt="Leo"
+      >
+
+      <img
+        src="assets/masker.png"
+        class="cert-character cert-masker"
+        alt="Masker"
+      >
+
+      <div class="cert-name" id="certName">
+        NOMBRE DEL HÉROE
+      </div>
+
+      <div class="cert-date-box">
+
+        <div class="cert-date-label">
+          FECHA
+        </div>
+
+        <div class="cert-date" id="certDate">
+          -- / -- / ----
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+</main>
+
+<!-- =========================================
+FOOTER
+========================================= -->
+
+<footer class="site-footer">
+
+  <p>
+    © 2026 Digital Shield Academy
+  </p>
+
+  <p>
+    Sé inteligente. Sé seguro. ¡Sé un Cyber Kid!
+  </p>
+
+</footer>
+
+<!-- =========================================
+SCRIPTS
+========================================= -->
+
+<script>
+
+function playMusic(){
+
+  const music =
+    document.getElementById("bgMusic");
+
+  music.play();
+}
+
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+<script src="app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,776 @@
+/* =========================================================
+   CYBER KIDS · Digital Shield Academy
+   PREMIUM FINAL CSS · FINAL FIXED VERSION
+========================================================= */
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+:root{
+
+  --bg:#050816;
+  --card:#0d1430;
+
+  --blue:#3aa9ff;
+  --blue2:#0d4d8c;
+
+  --gold:#d4af37;
+
+  --text:#eaf2ff;
+  --muted:#9aa8d4;
+}
+
+body{
+
+  font-family:'Rajdhani',sans-serif;
+
+  background:#050816;
+
+  color:white;
+
+  min-height:100vh;
+
+  overflow-x:hidden;
+}
+
+/* =========================================================
+   FONDO
+========================================================= */
+
+body::before{
+
+  content:"";
+
+  position:fixed;
+  inset:0;
+
+  background:
+
+    radial-gradient(circle at top left,
+      rgba(58,169,255,.18),
+      transparent 35%
+    ),
+
+    radial-gradient(circle at top right,
+      rgba(109,74,214,.12),
+      transparent 35%
+    ),
+
+    linear-gradient(
+      rgba(58,169,255,.04) 1px,
+      transparent 1px
+    ),
+
+    linear-gradient(
+      90deg,
+      rgba(58,169,255,.04) 1px,
+      transparent 1px
+    );
+
+  background-size:
+    auto,
+    auto,
+    40px 40px,
+    40px 40px;
+
+  z-index:-1;
+}
+
+/* =========================================================
+   HEADER
+========================================================= */
+
+.site-header{
+
+  max-width:1200px;
+
+  margin:auto;
+
+  padding:24px;
+
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+
+  flex-wrap:wrap;
+
+  gap:16px;
+}
+
+.brand{
+
+  display:flex;
+  align-items:center;
+
+  gap:14px;
+}
+
+.brand img{
+
+  width:58px;
+}
+
+.brand-title{
+
+  font-family:'Orbitron',sans-serif;
+
+  font-size:22px;
+
+  font-weight:900;
+}
+
+.brand-sub{
+
+  font-size:11px;
+
+  color:#7fd3ff;
+
+  letter-spacing:5px;
+}
+
+.privacy-pill{
+
+  background:rgba(0,255,120,.08);
+
+  border:1px solid rgba(0,255,120,.3);
+
+  color:#4eff9d;
+
+  padding:10px 18px;
+
+  border-radius:999px;
+
+  font-size:12px;
+
+  font-weight:700;
+}
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.hero{
+
+  max-width:1200px;
+
+  margin:20px auto;
+
+  border-radius:28px;
+
+  overflow:hidden;
+
+  position:relative;
+
+  padding:80px 20px;
+
+  background:
+
+    radial-gradient(circle at top left,
+      rgba(58,169,255,.18),
+      transparent 30%
+    ),
+
+    radial-gradient(circle at bottom right,
+      rgba(255,216,77,.08),
+      transparent 30%
+    ),
+
+    linear-gradient(
+      160deg,
+      #091122,
+      #111b40
+    );
+
+  border:1px solid rgba(127,211,255,.12);
+}
+
+.hero-content{
+
+  text-align:center;
+
+  position:relative;
+
+  z-index:5;
+}
+
+.hero-title{
+
+  font-family:'Orbitron',sans-serif;
+
+  font-size:clamp(58px,10vw,120px);
+
+  line-height:.9;
+
+  font-weight:900;
+}
+
+.t-blue{
+
+  background:
+    linear-gradient(
+      #7fd3ff,
+      #3aa9ff,
+      #0d4d8c
+    );
+
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+
+.t-yellow{
+
+  background:
+    linear-gradient(
+      #ffe580,
+      #ffd84d,
+      #c08b00
+    );
+
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+
+.hero-subtitle{
+
+  margin-top:18px;
+
+  font-size:26px;
+
+  font-weight:600;
+}
+
+.mission-tag{
+
+  display:inline-block;
+
+  margin-top:20px;
+
+  padding:10px 22px;
+
+  border-radius:999px;
+
+  border:1px solid rgba(255,216,77,.3);
+
+  background:rgba(255,216,77,.08);
+
+  color:#ffe580;
+
+  font-family:'Orbitron',sans-serif;
+
+  font-size:12px;
+
+  letter-spacing:2px;
+}
+
+/* =========================================================
+   CONTAINER
+========================================================= */
+
+.container{
+
+  max-width:1200px;
+
+  margin:auto;
+
+  padding:20px;
+
+  display:flex;
+  flex-direction:column;
+
+  gap:24px;
+}
+
+/* =========================================================
+   CARDS
+========================================================= */
+
+.form-card,
+.cert-section{
+
+  background:
+    linear-gradient(
+      160deg,
+      rgba(13,20,48,.94),
+      rgba(8,12,30,.95)
+    );
+
+  border:1px solid rgba(127,211,255,.12);
+
+  border-radius:24px;
+
+  padding:28px;
+
+  box-shadow:
+    0 20px 60px rgba(0,0,0,.35);
+}
+
+/* =========================================================
+   INPUT
+========================================================= */
+
+.input-wrap{
+
+  position:relative;
+
+  margin-top:24px;
+}
+
+.input-wrap input{
+
+  width:100%;
+
+  padding:20px;
+
+  border-radius:14px;
+
+  border:2px solid rgba(127,211,255,.12);
+
+  background:#091122;
+
+  color:white;
+
+  font-size:24px;
+
+  font-weight:700;
+
+  outline:none;
+}
+
+.input-wrap input:focus{
+
+  border-color:#3aa9ff;
+
+  box-shadow:
+    0 0 0 4px rgba(58,169,255,.12);
+}
+
+.input-counter{
+
+  position:absolute;
+
+  right:20px;
+  top:50%;
+
+  transform:translateY(-50%);
+
+  color:#9aa8d4;
+}
+
+/* =========================================================
+   BOTONES
+========================================================= */
+
+.actions{
+
+  display:flex;
+
+  flex-wrap:wrap;
+
+  gap:14px;
+
+  margin-top:24px;
+}
+
+.btn{
+
+  border:none;
+
+  padding:14px 22px;
+
+  border-radius:14px;
+
+  cursor:pointer;
+
+  font-family:'Orbitron',sans-serif;
+
+  font-size:13px;
+
+  font-weight:700;
+
+  transition:.25s;
+}
+
+.btn:hover{
+
+  transform:translateY(-2px);
+}
+
+.btn-primary{
+
+  background:
+    linear-gradient(
+      135deg,
+      #3aa9ff,
+      #0d4d8c
+    );
+
+  color:white;
+}
+
+.btn-secondary{
+
+  background:
+    linear-gradient(
+      135deg,
+      #ffd84d,
+      #b8860b
+    );
+
+  color:#1b1400;
+}
+
+.btn-ghost{
+
+  background:transparent;
+
+  border:2px solid rgba(127,211,255,.12);
+
+  color:white;
+}
+
+/* =========================================================
+   CERTIFICADO PREMIUM
+========================================================= */
+
+.cert-stage{
+
+  overflow:auto;
+
+  -webkit-overflow-scrolling:touch;
+
+  width:100%;
+
+  padding:10px;
+}
+
+.certificate{
+
+  width:1000px;
+  height:720px;
+
+  margin:auto;
+
+  position:relative;
+
+  overflow:hidden;
+
+  border-radius:20px;
+
+  background:url("certificado-premium.png");
+
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  box-shadow:
+    0 0 0 6px #0d4d8c,
+    0 0 0 8px #d4af37,
+    0 20px 80px rgba(0,0,0,.45);
+}
+
+/* =========================================================
+   OCULTAR TEXTOS DUPLICADOS
+========================================================= */
+
+.cert-title,
+.cert-subtitle,
+.cert-description,
+.cert-hero,
+.cert-signature{
+
+  display:none;
+}
+
+/* =========================================================
+   NOMBRE DINÁMICO
+========================================================= */
+
+.cert-name{
+
+  position:absolute;
+
+  top:325px;
+
+  left:50%;
+
+  transform:translateX(-50%);
+
+  width:80%;
+
+  text-align:center;
+
+  font-family:'Orbitron',sans-serif;
+
+  font-size:48px;
+
+  font-weight:900;
+
+  color:#0a1b4f;
+
+  letter-spacing:1px;
+
+  z-index:50;
+
+  text-shadow:none;
+
+  filter:none !important;
+}
+
+/* =========================================================
+   FECHA DINÁMICA · FIX FINAL
+========================================================= */
+
+.cert-date-box{
+
+  position:absolute;
+
+  bottom:108px;
+
+  right:250px;
+
+  width:150px;
+
+  display:flex;
+
+  flex-direction:column;
+
+  align-items:center;
+
+  justify-content:center;
+
+  text-align:center;
+
+  z-index:999;
+}
+
+.cert-date-label{
+
+  font-family:'Orbitron',sans-serif;
+
+  font-size:11px;
+
+  font-weight:700;
+
+  color:#2f4f91;
+
+  letter-spacing:1px;
+
+  line-height:1;
+}
+
+.cert-date{
+
+  margin-top:5px;
+
+  font-size:18px;
+
+  font-weight:800;
+
+  color:#111;
+
+  line-height:1;
+
+  white-space:nowrap;
+
+  text-align:center;
+}
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
+.site-footer{
+
+  text-align:center;
+
+  padding:40px 20px;
+
+  color:#9aa8d4;
+}
+
+/* =========================================================
+   RESPONSIVE FIXED · HTML2CANVAS SAFE
+========================================================= */
+
+@media(max-width:900px){
+
+  .cert-stage{
+
+    overflow-x:auto;
+
+    display:flex;
+
+    justify-content:flex-start;
+
+    padding-bottom:20px;
+  }
+
+  .certificate{
+
+    width:1000px;
+    height:720px;
+
+    min-width:1000px;
+
+    transform:none !important;
+  }
+
+  .actions{
+
+    flex-direction:column;
+  }
+
+  .btn{
+
+    width:100%;
+  }
+
+  .hero{
+
+    min-height:650px;
+  }
+
+}
+/* =========================================================
+   CINEMATIC POSTER HERO
+========================================================= */
+
+.poster-hero{
+
+  position:relative;
+
+  width:100%;
+
+  height:100vh;
+
+  overflow:hidden;
+}
+
+.poster-image{
+
+  width:100%;
+
+  height:100%;
+
+  object-fit:cover;
+
+  filter:brightness(.55);
+}
+
+.poster-overlay{
+
+  position:absolute;
+
+  inset:0;
+
+  display:flex;
+
+  flex-direction:column;
+
+  justify-content:center;
+
+  align-items:center;
+
+  text-align:center;
+
+  padding:20px;
+
+  z-index:5;
+}
+
+.poster-overlay h1{
+
+  font-family:'Orbitron',sans-serif;
+
+  font-size:clamp(52px,10vw,120px);
+
+  font-weight:900;
+
+  line-height:.9;
+
+  margin-bottom:20px;
+
+  text-shadow:
+    0 0 25px rgba(58,169,255,.8);
+
+  color:white;
+}
+
+.poster-overlay p{
+
+  font-size:clamp(18px,2vw,28px);
+
+  color:#dfefff;
+
+  margin-bottom:30px;
+
+  max-width:800px;
+
+  line-height:1.4;
+}
+
+.soundtrack-btn{
+
+  background:
+    linear-gradient(
+      135deg,
+      #3aa9ff,
+      #0d4d8c
+    );
+
+  color:white;
+
+  border:none;
+
+  padding:18px 34px;
+
+  border-radius:16px;
+
+  font-family:'Orbitron',sans-serif;
+
+  font-size:15px;
+
+  font-weight:700;
+
+  cursor:pointer;
+
+  box-shadow:
+    0 0 30px rgba(58,169,255,.45);
+
+  transition:.25s;
+}
+
+.soundtrack-btn:hover{
+
+  transform:scale(1.05);
+
+  box-shadow:
+    0 0 40px rgba(58,169,255,.7);
+}
+
+@media(max-width:768px){
+
+  .poster-overlay h1{
+
+    font-size:58px;
+  }
+
+  .poster-overlay p{
+
+    font-size:18px;
+  }
+
+  .soundtrack-btn{
+
+    width:100%;
+    max-width:320px;
+  }
+
+   }
