@@ -1,97 +1,97 @@
-# 🛡️ CYBER KIDS
-## Junior Cyber Hero Certificate Experience
+🛡️ CYBER KIDS
 
-![Cyber Kids Banner](https://digitalshieldacademy.github.io/cyberkids-cert/assets/banner.jpg)
+Junior Cyber Hero Certificate Experience
 
-> 🌐 Plataforma oficial de certificados de  
-> **Digital Shield Academy** by Oscar Rivera
+"Cyber Kids Banner" (https://digitalshieldacademy.github.io/cyberkids-cert/assets/banner.jpg)
+
+«🌐 Official certificate platform by
+Digital Shield Academy by Oscar Rivera»
 
 ---
 
-# 🚀 LIVE DEMO
+🚀 LIVE DEMO
 
 🔗 https://digitalshieldacademy.github.io/cyberkids-cert/
 
 ---
 
-# 🎮 ¿Qué es Cyber Kids?
+🎮 What is Cyber Kids?
 
-Cyber Kids es una experiencia interactiva diseñada para que niños y padres:
+Cyber Kids is an interactive experience designed for children and parents to:
 
-- Aprendan ciberseguridad básica
-- Completen misiones educativas
-- Reclamen certificados personalizados
-- Desarrollen conciencia digital desde pequeños
+- Learn basic cybersecurity concepts
+- Complete educational missions
+- Claim personalized certificates
+- Develop digital awareness from an early age
 
-Todo dentro de una experiencia divertida, colorida y segura.
-
----
-
-# 🧠 Misión Actual
-
-## 🎯 LA TRAMPA DEL PHISHING
-
-Los pequeños héroes aprenderán:
-
-- Cómo detectar mensajes falsos
-- Cómo proteger su información
-- Cómo actuar de forma inteligente en internet
-- Cómo convertirse en Junior Cyber Heroes
+All within a fun, colorful, and safe environment.
 
 ---
 
-# 🏆 Certificado Personalizado
+🧠 Current Mission
 
-Los padres pueden:
+🎯 THE PHISHING TRAP
 
-1. Escanear el QR del libro
-2. Entrar a la plataforma
-3. Escribir el nombre de su hijo/a
-4. Ver el certificado en tiempo real
-5. Descargar PDF o PNG
-6. Imprimirlo directamente
+Young heroes will learn:
 
----
-
-# 🔒 PRIVACIDAD TOTAL
-
-## CERO RECOLECCIÓN DE DATOS
-
-Cyber Kids enseña privacidad digital...
-por eso la plataforma también la respeta.
-
-✅ No usamos backend  
-✅ No usamos bases de datos  
-✅ No usamos cookies de tracking  
-✅ No guardamos nombres  
-✅ No recolectamos emails  
-✅ Todo ocurre localmente en el navegador
-
-Tu información nunca sale de tu dispositivo.
+- How to identify fake messages
+- How to protect their personal information
+- How to make smart decisions online
+- How to become Junior Cyber Heroes
 
 ---
 
-# ⚡ Tecnologías Utilizadas
+🏆 Personalized Certificate
+
+Parents can:
+
+1. Scan the QR code from the book
+2. Access the platform
+3. Enter their child's name
+4. Preview the certificate in real time
+5. Download it as a PDF or PNG
+6. Print it instantly
+
+---
+
+🔒 TOTAL PRIVACY
+
+ZERO DATA COLLECTION
+
+Cyber Kids teaches digital privacy...
+so the platform respects it as well.
+
+✅ No backend services
+✅ No databases
+✅ No tracking cookies
+✅ No name storage
+✅ No email collection
+✅ Everything runs locally in your browser
+
+Your information never leaves your device.
+
+---
+
+⚡ Technologies Used
 
 - HTML5
 - CSS3
-- JavaScript Vanilla
+- Vanilla JavaScript
 - html2canvas
 - jsPDF
 - GitHub Pages
 
 ---
 
-# 📁 Estructura del Proyecto
+📁 Project Structure
 
-```bash
 cyberkids-cert/
 │
 ├── index.html
 ├── style.css
 ├── app.js
 ├── README.md
-├── INSTRUCCIONES.md
+├── INSTRUCTIONS.md
 ├── .nojekyll
 │
 ├── assets/
@@ -100,65 +100,63 @@ cyberkids-cert/
 │   ├── leo.png
 │   ├── masker.png
 │   └── certificate-preview.png
-```
 
 ---
 
-# 🎨 Personajes Oficiales
+🎨 Official Characters
 
-| Personaje | Descripción |
-|---|---|
-| 🤖 Cypher | El robot protector digital |
-| 🧒 Leo | El joven héroe cyber |
-| 🎭 Masker | El villano del phishing |
-
----
-
-# 📸 Vista Previa
-
-## 🖥️ Plataforma
-
-![Preview](https://digitalshieldacademy.github.io/cyberkids-cert/assets/preview.png)
+Character| Description
+🤖 Cypher| The digital guardian robot
+🧒 Leo| The young cyber hero
+🎭 Masker| The phishing villain
 
 ---
 
-# 🌟 Próximas Misiones
+📸 Preview
 
-- VOL. 2 — Inteligencia Social 
-- VOL. 3 — Misión Anti-Bullying
-- VOL. 4 — El Secreto de la Privacidad
-- VOL. 5 — La Trampa de los Juegos Online
+🖥️ Platform
 
----
-
-# 🚀 Cómo Publicarlo en GitHub Pages
-
-Ver:
-
-## 📘 INSTRUCCIONES.md
+"Preview" (https://digitalshieldacademy.github.io/cyberkids-cert/assets/preview.png)
 
 ---
 
-# 🛡️ Digital Shield Academy
+🌟 Upcoming Missions
 
-Formando la próxima generación de héroes digitales.
+- VOL. 2 — Social Engineering
+- VOL. 3 — Anti-Bullying Mission
+- VOL. 4 — The Secret of Privacy
+- VOL. 5 — The Online Gaming Trap
 
 ---
 
-# 👨‍💻 Creado por
+🚀 Publishing on GitHub Pages
 
-## Oscar Rivera
+See:
 
-Cisco Certified Instructor  
-Cybersecurity Educator  
+📘 INSTRUCTIONS.md
+
+---
+
+🛡️ Digital Shield Academy
+
+Empowering the next generation of digital heroes.
+
+---
+
+👨‍💻 Created by
+
+Oscar Rivera
+
+Cisco Certified Instructor
+Cybersecurity Educator
 Founder of Digital Shield Academy
 
 ---
 
-# ⭐ Mensaje Final
+⭐ Final Message
 
-> “Sé inteligente. Sé seguro.  
-> ¡Sé un Cyber Kid!”
+«“Be Smart. Be Safe.
+Be a Cyber Kid!”»
 
 ---
 
